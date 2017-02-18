@@ -3,8 +3,12 @@
  */
 
 const myHeading = document.getElementById('myHeading');
-myHeading.addEventListener('click', () => {
-    myHeading.style.color = 'red';
+const myButton = document.getElementById('myButton');
+const myTextInput = document.getElementById('myTextInput');
+
+
+myButton.addEventListener('click', () => {
+    myHeading.style.color = myTextInput.value;
 
 });
 
