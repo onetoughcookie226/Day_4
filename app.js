@@ -1,6 +1,14 @@
 /**
  * Created by vagrant on 6/15/16.
  */
+
+const myList = document.getElementsByTagName('li');
+for (let i = 0 ; i < myList.length; i +=1) {
+    myList[i].style.color = 'purple';
+}
+
+
+
 const myHeading = document.getElementById('myHeading');
 const myButton = document.getElementById('myButton');
 const myTextInput = document.getElementById('myTextInput');
@@ -9,7 +17,6 @@ myButton.addEventListener('click', () => {
     myHeading.style.color = myTextInput.value;
 
 });
-
 
 
 
