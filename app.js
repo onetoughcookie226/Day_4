@@ -8,6 +8,12 @@ for (let i = 0 ; i < myList.length; i +=1) {
 }
 
 
+const errorNotPurple = document.getElementsByClassName('error-not-purple');
+for (let i = 0 ; i < errorNotPurple.length; i +=1) {
+    errorNotPurple[i].style.color = 'red';
+}
+
+
 
 const myHeading = document.getElementById('myHeading');
 const myButton = document.getElementById('myButton');
